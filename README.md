@@ -22,7 +22,11 @@
 2. 克隆本仓库
 3. 运行程序：
 ```bash
-moon run src/main/main.mbt
+moon run src/main/main.mbt --target native
+```
+或者
+```bash
+moon run src/main/main.mbt --target js
 ```
 
 ## 示例输出
