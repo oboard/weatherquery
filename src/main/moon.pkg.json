@@ -1,0 +1,11 @@
+{
+  "is-main": true,
+  "import": [
+    {"path":"oboard/mio/lib","alias": "mio"}
+  ],
+  "link": {
+      "native": {
+          "cc-link-flags": "-lcurl"
+      }
+  }
+}
