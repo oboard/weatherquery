@@ -51,7 +51,3 @@ moon run src/main/main.mbt --target js
 ## 数据来源
 
 天气数据来源于 addto.cn 天气 API。
-
-## 许可证
-
-MIT License
