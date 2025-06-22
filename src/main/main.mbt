@@ -2,7 +2,7 @@
 fn main {
   let city = "深圳"
   @mio.run(fn() {
-    if @mio.get?("http://api1.addto.cn/api/weather?city=\{city}") is Ok(a) {
+    if (try? @mio.get("http://api1.addto.cn/api/weather?city=\{city}")) is Ok(a) {
       match a.unwrap_json() {
         // "msg": String(msg),
         // "English": Object(
