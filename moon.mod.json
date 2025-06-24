@@ -1,13 +1,13 @@
 {
   "name": "oboard/weatherquery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "deps": {
     "oboard/mio": "0.3.0"
   },
   "readme": "README.md",
   "repository": "",
   "license": "Apache-2.0",
-  "keywords": [],
+  "keywords": ["mooncakes-test"],
   "description": "",
   "source": "src"
 }
